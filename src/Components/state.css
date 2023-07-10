@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.header{
+  text-align: center;
+  background-color: orange;
+  color: white;
+  height: 80px;
+  padding-top: 30px;
+}
+
+.state {
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 6%;
+  border: 3px solid orange;
+  width: 400px;
+  height: 200px;
+  padding-top: 60px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+
+.footer{
+  position: absolute;
+  text-align: center;
+  background-color: orange;
+  color: white;
+  height: 60px;
+  padding-top: 30px;
+  bottom: 1px;
+  width: 100%;
+}
